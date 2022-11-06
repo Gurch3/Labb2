@@ -29,7 +29,7 @@ namespace ClassLibrary1
 
         public override Vector3 Center =>_center;
 
-        public override float Area => 2 * _size.X * _size.Y + 2 * _size.X * _size.Z;
+        public override float Area => _size.X * _size.Y * _size.Z;
 
         public override string ToString()
         {
